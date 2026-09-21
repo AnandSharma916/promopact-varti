@@ -144,7 +144,7 @@ export default function QuoteModal({ isOpen, onClose, defaultSpeciality = "Ortho
                 <input
                   type="text"
                   required
-                  placeholder="Max / Fortis / Medanta / Park Hospital"
+                  placeholder="Park Hospital / Max / Fortis / Medanta"
                   value={formData.hospital}
                   onChange={(e) => setFormData({ ...formData, hospital: e.target.value })}
                   className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-[#d97706] focus:border-transparent transition-all"
